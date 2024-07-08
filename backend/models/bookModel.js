@@ -22,4 +22,5 @@ const bookSchema = mongoose.Schema(
     }
 );
 
+// export book model to be used elsewhere
 export const Book = mongoose.model('Book', bookSchema);
